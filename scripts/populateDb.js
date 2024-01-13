@@ -7,11 +7,11 @@ const Game = require('../models/game');
 
 const game1 = new Game({
     title: 'Wally 1 - Deportes',
-    imgURL: '/public/images/wally1-deportes.png',
+    imgURL: 'wally1-deportes.png',
     items: [
         {
             name: 'Wally',
-            imgURL: '/public/images/wally.png',
+            imgURL: 'wally.png',
             coords: {
                 x: 205,
                 y: 978,
@@ -19,7 +19,7 @@ const game1 = new Game({
         },
         {
             name: 'Ladron',
-            imgURL: '/public/images/1-ladron.png',
+            imgURL: '1-ladron.png',
             coords: {
                 x: 828,
                 y: 210,
@@ -27,7 +27,7 @@ const game1 = new Game({
         },
         {
             name: 'Wizard',
-            imgURL: '/public/images/wizard.png',
+            imgURL: 'wizard.png',
             coords: {
                 x: 1174,
                 y: 259,
@@ -39,11 +39,11 @@ const game1 = new Game({
 
 const game2 = new Game({
     title: 'Wally 2 - Feria',
-    imgURL: '/public/images/wally2-feria.jpg',
+    imgURL: 'wally2-feria.jpg',
     items: [
         {
             name: 'Wally',
-            imgURL: '/public/images/wally.png',
+            imgURL: 'wally.png',
             coords: {
                 x: 1420,
                 y: 562,
@@ -51,7 +51,7 @@ const game2 = new Game({
         },
         {
             name: 'Odlaw',
-            imgURL: '/public/images/odlaw.png',
+            imgURL: 'odlaw.png',
             coords: {
                 x: 1140,
                 y: 268,
@@ -59,7 +59,7 @@ const game2 = new Game({
         },
         {
             name: 'Wenda',
-            imgURL: '/public/images/wenda.png',
+            imgURL: 'wenda.png',
             coords: {
                 x: 189,
                 y: 867,
@@ -71,11 +71,11 @@ const game2 = new Game({
 
 const game3 = new Game({
     title: 'Wally 3 - Playa',
-    imgURL: '/public/images/wally3-playa.jpg',
+    imgURL: 'wally3-playa.jpg',
     items: [
         {
             name: 'Wally',
-            imgURL: '/public/images/wally.png',
+            imgURL: 'wally.png',
             coords: {
                 x: 1854,
                 y: 730,
@@ -83,7 +83,7 @@ const game3 = new Game({
         },
         {
             name: 'Odlaw',
-            imgURL: '/public/images/odlaw.png',
+            imgURL: 'odlaw.png',
             coords: {
                 x: 323,
                 y: 693,
@@ -91,7 +91,7 @@ const game3 = new Game({
         },
         {
             name: 'Wizard',
-            imgURL: '/public/images/wizard.png',
+            imgURL: 'wizard.png',
             coords: {
                 x: 807,
                 y: 685,
