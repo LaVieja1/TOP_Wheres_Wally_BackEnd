@@ -12,11 +12,8 @@ const GameSchema = new Schema({
                 imgURL: { type: String, required: true },
                 coords: {
                     type: {
-                        topBorder: { type: Number, required: true },
-                        bottomBorder: { type: Number, required: true },
-                        leftBorder: { type: Number, required: true },
-                        rightBorder: { type: Number, required: true },
-                        center: { type: Object, required: true },
+                        x: { type: Number, required: true },
+                        y: { type: Number, required: true },
                         _id: false,
                     },
                 },
